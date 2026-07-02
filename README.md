@@ -7,11 +7,11 @@ Página institucional estática para apresentação dos serviços da Instalmec C
 - Página única em HTML, CSS e JavaScript puro.
 - Conteúdo institucional reorganizado para engenharia, obras e instalações.
 - Formulário de contato via `mailto:` para `SAC@INSTALMEC.COM.BR`.
-- Workflow de GitHub Pages em `.github/workflows/pages.yml`.
+- Publicação pelo GitHub Pages usando a raiz da branch `main`.
 
 ## Publicação
 
-Após o push na branch `main`, o workflow `Deploy static site to GitHub Pages` publica o conteúdo estático.
+O GitHub Pages deve usar a branch `main` e o diretório raiz (`/`) como origem.
 
 URL esperada no GitHub Pages:
 
