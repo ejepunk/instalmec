@@ -1,18 +1,18 @@
 :root {
   color-scheme: light;
-  --ink: #162033;
-  --ink-strong: #0b1220;
-  --muted: #5b6677;
-  --line: #d8dde5;
+  --ink: #1d1a17;
+  --ink-strong: #100e0c;
+  --muted: #6a6259;
+  --line: #ded7cb;
   --paper: #ffffff;
-  --surface: #f4f6f8;
-  --steel: #14243a;
-  --steel-2: #23364f;
-  --accent: #c7442e;
-  --accent-dark: #9f2d1f;
+  --surface: #f6f3ee;
+  --steel: #2a2420;
+  --steel-2: #3c332a;
+  --accent: #b3301c;
+  --accent-dark: #8a2414;
   --warning: #e6a127;
   --max: 1180px;
-  --shadow: 0 22px 70px rgba(15, 23, 42, 0.14);
+  --shadow: 0 22px 70px rgba(20, 16, 12, 0.16);
 }
 
 * {
@@ -53,14 +53,14 @@ a {
   gap: 24px;
   padding: 18px clamp(18px, 4vw, 54px);
   background: rgba(255, 255, 255, 0.94);
-  border-bottom: 1px solid rgba(216, 221, 229, 0.8);
+  border-bottom: 1px solid rgba(222, 215, 203, 0.8);
   backdrop-filter: blur(18px);
   transition: box-shadow 180ms ease, padding 180ms ease;
 }
 
 .site-header.is-scrolled {
   padding-block: 12px;
-  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  box-shadow: 0 10px 30px rgba(20, 16, 12, 0.08);
 }
 
 .brand img {
@@ -145,8 +145,8 @@ a {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(10, 18, 32, 0.9), rgba(10, 18, 32, 0.66) 44%, rgba(10, 18, 32, 0.18)),
-    linear-gradient(0deg, rgba(10, 18, 32, 0.82), rgba(10, 18, 32, 0.08) 56%),
+    linear-gradient(90deg, rgba(18, 14, 10, 0.9), rgba(18, 14, 10, 0.66) 44%, rgba(18, 14, 10, 0.18)),
+    linear-gradient(0deg, rgba(18, 14, 10, 0.82), rgba(18, 14, 10, 0.08) 56%),
     url("images/banner-img.png") center / cover;
 }
 
@@ -237,7 +237,7 @@ h1 {
   width: min(360px, calc(100% - 36px));
   padding: 22px;
   color: #fff;
-  background: rgba(20, 36, 58, 0.88);
+  background: rgba(42, 36, 32, 0.88);
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: var(--shadow);
 }
@@ -352,8 +352,8 @@ h1 {
 
 .service-card:hover,
 .service-card:focus-visible {
-  border-color: rgba(199, 68, 46, 0.42);
-  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.1);
+  border-color: rgba(179, 48, 28, 0.42);
+  box-shadow: 0 18px 50px rgba(20, 16, 12, 0.1);
   transform: translateY(-3px);
 }
 
@@ -418,7 +418,7 @@ h1 {
   display: grid;
   place-items: center;
   padding: 24px;
-  background: rgba(11, 18, 32, 0.72);
+  background: rgba(19, 16, 13, 0.72);
   backdrop-filter: blur(4px);
 }
 
@@ -470,7 +470,7 @@ h1 {
   color: #fff;
   font-size: 1.4rem;
   line-height: 1;
-  background: rgba(11, 18, 32, 0.55);
+  background: rgba(19, 16, 13, 0.55);
   border: none;
   border-radius: 50%;
   cursor: pointer;
@@ -652,7 +652,7 @@ body.modal-open {
   position: absolute;
   inset: auto 0 0;
   height: 56%;
-  background: linear-gradient(0deg, rgba(10, 18, 32, 0.88), transparent);
+  background: linear-gradient(0deg, rgba(18, 14, 10, 0.88), transparent);
   content: "";
 }
 
@@ -707,7 +707,7 @@ body.modal-open {
   padding: 94px clamp(18px, 4vw, 54px);
   color: #fff;
   background:
-    linear-gradient(90deg, rgba(20, 36, 58, 0.96), rgba(20, 36, 58, 0.74)),
+    linear-gradient(90deg, rgba(30, 25, 21, 0.96), rgba(30, 25, 21, 0.74)),
     url("images/project3e.jpg") center / cover;
 }
 
@@ -795,7 +795,7 @@ body.modal-open {
   place-items: center;
   padding: 24px;
   background:
-    linear-gradient(90deg, rgba(20, 36, 58, 0.95), rgba(20, 36, 58, 0.74)),
+    linear-gradient(90deg, rgba(30, 25, 21, 0.95), rgba(30, 25, 21, 0.74)),
     url("images/banner-img.png") center / cover;
 }
 
@@ -839,7 +839,7 @@ body.modal-open {
     padding: 12px 18px 18px;
     background: #fff;
     border-bottom: 1px solid var(--line);
-    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
+    box-shadow: 0 20px 50px rgba(20, 16, 12, 0.12);
   }
 
   .site-nav.is-open {
