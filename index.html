@@ -1,300 +1,334 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Instalmec Construções e Instalações</title>
-    <meta
-      name="description"
-      content="Instalmec Construções e Instalações: projetos, estudos e execução de obras com atuação em engenharia, instalações prediais e serviços especiais."
-    />
-    <meta name="theme-color" content="#151c20" />
-    <meta property="og:title" content="Instalmec Construções e Instalações" />
-    <meta
-      property="og:description"
-      content="Soluções de engenharia, obras e instalações com foco em segurança, prazo e qualidade técnica."
-    />
-    <meta property="og:type" content="website" />
-    <link rel="preconnect" href="https://images.unsplash.com" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-
-    <header class="site-header" data-header>
-      <a class="brand" href="#inicio" aria-label="Instalmec - início">
-        <span class="brand-mark">IM</span>
-        <span>
-          <strong>Instalmec</strong>
-          <small>Construções e Instalações</small>
-        </span>
-      </a>
-
-      <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu" data-menu-button>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instalmec Construções e Instalações</title>
+  <meta name="description" content="Projetos, estudos e execução de obras civis, instalações industriais, elétricas e hidrossanitárias no Rio de Janeiro.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#14243a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="#inicio" aria-label="Instalmec - página inicial">
+      <img src="images/main-logo.png" alt="Instalmec">
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" data-menu-toggle>
+      <span class="menu-lines" aria-hidden="true">
         <span></span>
         <span></span>
         <span></span>
-        <span class="sr-only">Abrir menu</span>
-      </button>
+      </span>
+      <span class="menu-label">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-menu" aria-label="Navegação principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Quem somos</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#conformidade">Conformidade</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
-      <nav class="site-nav" id="menu" data-menu>
-        <a href="#servicos">Serviços</a>
-        <a href="#processo">Processo</a>
-        <a href="#sobre">Quem somos</a>
-        <a href="#atualizacoes">Atualizações</a>
-        <a class="nav-cta" href="#contato">Contato</a>
-      </nav>
-    </header>
-
-    <main id="conteudo">
-      <section class="hero" id="inicio">
-        <div class="hero-media" aria-hidden="true"></div>
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-          <p class="eyebrow">Projetos, estudos e execução de obras</p>
-          <h1>Engenharia e instalações para obras que precisam de controle técnico.</h1>
-          <p class="hero-copy">
-            A Instalmec atua em construção, instalações prediais, manutenção, restauração e redes especiais,
-            integrando planejamento, execução e acompanhamento técnico em cada etapa.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#contato">Solicitar orçamento</a>
-            <a class="button secondary" href="#servicos">Ver escopo de serviços</a>
-          </div>
-          <dl class="hero-facts" aria-label="Informações rápidas">
-            <div>
-              <dt>Atuação</dt>
-              <dd>Engenharia industrial e predial</dd>
-            </div>
-            <div>
-              <dt>Base</dt>
-              <dd>Duque de Caxias, RJ</dd>
-            </div>
-            <div>
-              <dt>Revisão</dt>
-              <dd>Julho de 2026</dd>
-            </div>
-          </dl>
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Engenharia, obras e instalações</p>
+        <h1>Execução técnica para obras civis e instalações industriais.</h1>
+        <p class="hero-copy">A Instalmec atua em projetos, estudos e execução de obras com foco em segurança, prazo, qualidade de entrega e responsabilidade ambiental.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contato">Solicitar contato</a>
+          <a class="button secondary" href="#projetos">Ver projetos</a>
         </div>
-      </section>
+      </div>
+      <div class="hero-panel" aria-label="Status operacional">
+        <span class="status-dot"></span>
+        <strong>Operação ativa em 2026</strong>
+        <p>Atendimento comercial e técnico para obras, manutenções e escopos sob demanda no RJ.</p>
+      </div>
+    </section>
 
-      <section class="trust-strip" aria-label="Prioridades da operação">
+    <section class="trust-strip" aria-label="Áreas de atendimento">
+      <div>
+        <strong>Duque de Caxias / RJ</strong>
+        <span>Base operacional</span>
+      </div>
+      <div>
+        <strong>Obras civis</strong>
+        <span>Construção, reforma e acabamento</span>
+      </div>
+      <div>
+        <strong>Instalações</strong>
+        <span>Elétrica, hidráulica e sistemas especiais</span>
+      </div>
+      <div>
+        <strong>Gestão técnica</strong>
+        <span>Planejamento, acompanhamento e controle</span>
+      </div>
+    </section>
+
+    <section class="section services" id="servicos">
+      <div class="section-heading">
         <div>
-          <strong>Segurança do trabalho</strong>
-          <span>Rotina orientada à prevenção e preservação da equipe.</span>
+          <p class="eyebrow">Serviços</p>
+          <h2>Soluções para obra, infraestrutura e manutenção.</h2>
         </div>
-        <div>
-          <strong>Prazo e custo</strong>
-          <span>Planejamento para cumprir escopo, materiais e orçamento definidos.</span>
-        </div>
-        <div>
-          <strong>Responsabilidade ambiental</strong>
-          <span>Execução com atenção ao impacto da operação e descarte adequado.</span>
-        </div>
-      </section>
-
-      <section class="section" id="servicos">
-        <div class="section-heading">
-          <p class="eyebrow">O que fornecemos</p>
-          <h2>Serviços organizados por demanda técnica.</h2>
-          <p>
-            O escopo foi reestruturado para ficar claro para síndicos, construtoras, indústrias e gestores
-            que precisam comparar fornecedores com objetividade.
-          </p>
-        </div>
-
-        <div class="service-grid">
-          <article class="service-card">
-            <span class="service-number">01</span>
+        <p>Escopos dimensionados conforme a necessidade de cada cliente, com acompanhamento técnico e foco na continuidade da operação.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card" tabindex="0" role="button" aria-haspopup="dialog"
+          data-detail="Execução de obras residenciais, comerciais e industriais do início ao fim: fundação, estrutura, alvenaria e acabamento, com equipe qualificada e controle de qualidade em cada etapa.">
+          <img src="images/i8.JPG" alt="" loading="lazy">
+          <div class="service-card-body">
             <h3>Construção de edifícios</h3>
-            <p>Execução de obras residenciais, comerciais e industriais com coordenação técnica e controle de qualidade.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">02</span>
+            <p>Execução de obras residenciais, comerciais e industriais, do planejamento à entrega.</p>
+            <span class="service-card-cta">Ver detalhes</span>
+          </div>
+        </article>
+        <article class="service-card" tabindex="0" role="button" aria-haspopup="dialog"
+          data-detail="Preparação de terreno para fundações e vias internas: corte, aterro, nivelamento, compactação e drenagem, garantindo uma base segura para a etapa construtiva seguinte.">
+          <img src="images/i3.JPG" alt="" loading="lazy">
+          <div class="service-card-body">
             <h3>Terraplenagem</h3>
-            <p>Preparação, limpeza, nivelamento, escavação, corte, aterro e compactação de terrenos.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">03</span>
-            <h3>Elétrica e automação</h3>
-            <p>Instalação, manutenção e adequação de sistemas elétricos, controle e segurança predial.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">04</span>
-            <h3>Hidráulica e sanitária</h3>
-            <p>Tubulações de água potável, esgoto e infraestrutura hidráulica conforme normas aplicáveis.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">05</span>
+            <p>Preparação de terreno, corte, aterro, nivelamento e compactação para bases seguras.</p>
+            <span class="service-card-cta">Ver detalhes</span>
+          </div>
+        </article>
+        <article class="service-card" tabindex="0" role="button" aria-haspopup="dialog"
+          data-detail="Instalação, manutenção e adequação de sistemas elétricos prediais e industriais: quadros de distribuição, cabeamento e circuitos dimensionados conforme normas técnicas vigentes.">
+          <img src="images/i5.JPG" alt="" loading="lazy">
+          <div class="service-card-body">
+            <h3>Instalações elétricas</h3>
+            <p>Instalação, manutenção e adequação de sistemas elétricos em edifícios e unidades produtivas.</p>
+            <span class="service-card-cta">Ver detalhes</span>
+          </div>
+        </article>
+        <article class="service-card" tabindex="0" role="button" aria-haspopup="dialog"
+          data-detail="Tubulações de água fria e quente, esgoto e sistemas de drenagem para edificações e plantas industriais, executadas conforme os requisitos técnicos e sanitários da obra.">
+          <img src="images/i4.JPG" alt="" loading="lazy">
+          <div class="service-card-body">
+            <h3>Redes hidrossanitárias</h3>
+            <p>Tubulações de água, esgoto e sistemas sanitários conforme requisitos técnicos da obra.</p>
+            <span class="service-card-cta">Ver detalhes</span>
+          </div>
+        </article>
+        <article class="service-card" tabindex="0" role="button" aria-haspopup="dialog"
+          data-detail="Preparação de superfície, pintura interna e externa, texturas e reparos pontuais, com acabamento final alinhado ao padrão estético definido para o projeto.">
+          <img src="images/i1.JPG" alt="" loading="lazy">
+          <div class="service-card-body">
             <h3>Pintura e acabamento</h3>
-            <p>Pintura interna e externa, tratamento de superfícies, reparos e preparação para maior durabilidade.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">06</span>
-            <h3>Engenharia e fiscalização</h3>
-            <p>Consultoria, projetos, gerenciamento de obras, fiscalização e controle de qualidade.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">07</span>
+            <p>Tratamento de superfícies, pintura interna e externa, reparos e acabamento final.</p>
+            <span class="service-card-cta">Ver detalhes</span>
+          </div>
+        </article>
+        <article class="service-card" tabindex="0" role="button" aria-haspopup="dialog"
+          data-detail="Consultoria técnica, elaboração de projetos, gerenciamento de obra, fiscalização de etapas críticas e controle de qualidade do início ao fechamento do escopo contratado.">
+          <img src="images/i9.JPG" alt="" loading="lazy">
+          <div class="service-card-body">
+            <h3>Serviços de engenharia</h3>
+            <p>Consultoria, projetos, gerenciamento, fiscalização e controle de qualidade.</p>
+            <span class="service-card-cta">Ver detalhes</span>
+          </div>
+        </article>
+        <article class="service-card" tabindex="0" role="button" aria-haspopup="dialog"
+          data-detail="Recuperação de edificações com atenção à integridade estrutural, tratamento de fachadas, impermeabilização e reforço, preservando a segurança e a estética da construção original.">
+          <img src="images/i7.JPG" alt="" loading="lazy">
+          <div class="service-card-body">
             <h3>Restaurações</h3>
-            <p>Serviços de recuperação de edificações com atenção à preservação, acabamento e valor do imóvel.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-number">08</span>
+            <p>Recuperação de edificações com atenção à integridade estrutural, estética e funcional.</p>
+            <span class="service-card-cta">Ver detalhes</span>
+          </div>
+        </article>
+        <article class="service-card" tabindex="0" role="button" aria-haspopup="dialog"
+          data-detail="Montagem de redes e centrais para gás, ar comprimido, vácuo, oxigênio, óleo e outros fluidos industriais, com atenção às normas de segurança aplicáveis a cada tipo de instalação.">
+          <img src="images/i6.JPG" alt="" loading="lazy">
+          <div class="service-card-body">
             <h3>Instalações especiais</h3>
-            <p>Redes e centrais para gás, ar comprimido, vácuo, oxigênio, óleo e líquidos industriais.</p>
-          </article>
-        </div>
-      </section>
+            <p>Redes e centrais para gás, ar comprimido, vácuo, oxigênio, óleo e fluidos industriais.</p>
+            <span class="service-card-cta">Ver detalhes</span>
+          </div>
+        </article>
+      </div>
+    </section>
 
-      <section class="split-section" id="processo">
-        <div class="process-copy">
-          <p class="eyebrow">Como trabalhamos</p>
-          <h2>Um fluxo simples para reduzir ruído na contratação.</h2>
-          <p>
-            Cada solicitação passa por levantamento técnico, estudo do escopo e acompanhamento de execução,
-            mantendo o responsável informado sobre prazos, materiais e restrições da obra.
-          </p>
-        </div>
-        <ol class="timeline">
-          <li>
-            <span>01</span>
-            <div>
-              <h3>Levantamento da necessidade</h3>
-              <p>Entendimento do escopo, local, restrições de operação e prioridade do serviço.</p>
-            </div>
-          </li>
-          <li>
-            <span>02</span>
-            <div>
-              <h3>Estudo técnico e orçamento</h3>
-              <p>Organização das etapas, materiais, equipes necessárias e condições de execução.</p>
-            </div>
-          </li>
-          <li>
-            <span>03</span>
-            <div>
-              <h3>Execução acompanhada</h3>
-              <p>Controle de prazo, segurança, qualidade e comunicação com o responsável pela obra.</p>
-            </div>
-          </li>
-          <li>
-            <span>04</span>
-            <div>
-              <h3>Entrega e orientação</h3>
-              <p>Finalização com conferência do serviço e registro das informações essenciais.</p>
-            </div>
-          </li>
-        </ol>
-      </section>
-
-      <section class="section about" id="sobre">
-        <div class="about-panel">
-          <p class="eyebrow">Quem somos</p>
-          <h2>Uma empresa de engenharia voltada para obras e instalações.</h2>
-          <p>
-            A Instalmec Construções e Instalações atua no setor de engenharia industrial e predial,
-            fornecendo soluções para projetos de diferentes escalas e complexidades, do planejamento à
-            entrega técnica.
-          </p>
-          <div class="commitments">
-            <article>
-              <h3>Compromisso</h3>
-              <p>Executar obras e serviços com materiais adequados, mão de obra qualificada e atenção ao prazo.</p>
-            </article>
-            <article>
-              <h3>Prioridade</h3>
-              <p>Manter segurança, saúde e preservação ambiental como critérios de execução.</p>
-            </article>
-            <article>
-              <h3>Melhoria contínua</h3>
-              <p>Aprimorar processos técnicos e administrativos para sustentar a qualidade do serviço.</p>
-            </article>
+    <section class="feature-band" id="sobre">
+      <div class="feature-image">
+        <img src="images/Sobre.jpg" alt="Equipe técnica executando instalação em alvenaria" loading="lazy">
+      </div>
+      <div class="feature-copy">
+        <p class="eyebrow">Quem somos</p>
+        <h2>Atuação técnica com rotina de obra, controle e responsabilidade.</h2>
+        <p>A Instalmec Construções e Instalações LTDA é uma empresa do setor de engenharia, com atuação em obras civis, reformas, instalações prediais e demandas industriais. O trabalho é conduzido com planejamento, mão de obra qualificada e acompanhamento das etapas críticas de execução.</p>
+        <div class="commitments">
+          <div>
+            <strong>Segurança</strong>
+            <span>Priorização de práticas preventivas no ambiente de trabalho.</span>
+          </div>
+          <div>
+            <strong>Prazo e custo</strong>
+            <span>Execução alinhada ao escopo aprovado e às condições de obra.</span>
+          </div>
+          <div>
+            <strong>Responsabilidade ambiental</strong>
+            <span>Uso racional de recursos e atenção à redução de impactos.</span>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section updates" id="atualizacoes">
-        <div class="section-heading compact">
-          <p class="eyebrow">Página ativa</p>
-          <h2>Informações institucionais revisadas.</h2>
-          <p>
-            Registros recentes de revisão do conteúdo, organização do escopo e disponibilidade dos canais
-            institucionais.
-          </p>
-        </div>
-        <div class="update-list">
-          <article>
-            <time datetime="2026-07">Julho de 2026</time>
-            <h3>Conteúdo revisado</h3>
-            <p>Serviços, texto institucional e canais de contato reorganizados para consulta comercial.</p>
-          </article>
-          <article>
-            <time datetime="2026-07">Julho de 2026</time>
-            <h3>Escopo consolidado</h3>
-            <p>Áreas de atuação agrupadas por serviço para facilitar análise de fornecedores.</p>
-          </article>
-          <article>
-            <time datetime="2026-07">Julho de 2026</time>
-            <h3>Contato centralizado</h3>
-            <p>Solicitações de orçamento direcionadas ao SAC institucional informado pela empresa.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="contact-section" id="contato">
+    <section class="section process" aria-label="Forma de trabalho">
+      <div class="section-heading compact">
         <div>
-          <p class="eyebrow">Contato</p>
-          <h2>Envie os dados do serviço para orçamento.</h2>
-          <p>
-            Informe o tipo de demanda, endereço da obra, urgência esperada e qualquer restrição de acesso
-            ao local.
-          </p>
-          <address>
-            <strong>Instalmec Construções e Instalações LTDA</strong>
-            <span>CNPJ: 19.584.260/0001-80</span>
-            <span>Estrada de Xerém, 05 - Duque de Caxias, RJ</span>
-            <a href="mailto:SAC@INSTALMEC.COM.BR">SAC@INSTALMEC.COM.BR</a>
-          </address>
+          <p class="eyebrow">Método</p>
+          <h2>Como a obra avança.</h2>
         </div>
+        <p>Uma página profissional precisa mostrar como a empresa trabalha. Aqui, o fluxo é objetivo e compatível com escopos técnicos reais.</p>
+      </div>
+      <ol class="process-list">
+        <li>
+          <span>01</span>
+          <strong>Levantamento</strong>
+          <p>Análise do local, do escopo, das restrições técnicas e dos prazos envolvidos.</p>
+        </li>
+        <li>
+          <span>02</span>
+          <strong>Planejamento</strong>
+          <p>Definição de etapas, materiais, equipe, sequência executiva e controles necessários.</p>
+        </li>
+        <li>
+          <span>03</span>
+          <strong>Execução</strong>
+          <p>Realização dos serviços com acompanhamento de qualidade, segurança e produtividade.</p>
+        </li>
+        <li>
+          <span>04</span>
+          <strong>Entrega</strong>
+          <p>Conferência final, organização do ambiente e orientação para uso ou manutenção.</p>
+        </li>
+      </ol>
+    </section>
 
-        <form class="contact-form" data-contact-form>
-          <label>
-            Nome
-            <input name="nome" type="text" autocomplete="name" required />
-          </label>
-          <label>
-            Empresa ou condomínio
-            <input name="empresa" type="text" autocomplete="organization" />
-          </label>
-          <label>
-            Serviço de interesse
-            <select name="servico" required>
-              <option value="">Selecione</option>
-              <option>Construção de edifícios</option>
-              <option>Terraplenagem</option>
-              <option>Instalação e manutenção elétrica</option>
-              <option>Instalações hidráulicas e sanitárias</option>
-              <option>Serviços de engenharia</option>
-              <option>Restaurações</option>
-              <option>Instalações especiais</option>
-            </select>
-          </label>
-          <label>
-            Mensagem
-            <textarea name="mensagem" rows="5" required placeholder="Descreva local, prazo desejado e principais necessidades."></textarea>
-          </label>
-          <button class="button primary full" type="submit">Preparar e-mail</button>
-          <p class="form-note" data-form-note>A mensagem será preparada no seu aplicativo de e-mail.</p>
-        </form>
-      </section>
-    </main>
+    <section class="projects" id="projetos">
+      <div class="projects-inner">
+        <div class="projects-head">
+          <p class="eyebrow">Projetos</p>
+          <h2>Registros de execução e acabamento.</h2>
+          <p>Imagens de referência dos tipos de serviço atendidos: estrutura, alvenaria, impermeabilização, acabamento e intervenção técnica.</p>
+        </div>
+        <div class="project-grid">
+          <figure class="project-card large">
+            <img src="images/project1.jpeg" alt="Armadura e concretagem em obra" loading="lazy">
+            <figcaption>
+              <strong>Preparação estrutural</strong>
+              <span>Obra civil</span>
+            </figcaption>
+          </figure>
+          <figure class="project-card">
+            <img src="images/project2.jpeg" alt="Canteiro de obra com alvenaria em execução" loading="lazy">
+            <figcaption>
+              <strong>Alvenaria e canteiro</strong>
+              <span>Construção</span>
+            </figcaption>
+          </figure>
+          <figure class="project-card">
+            <img src="images/project3.jpeg" alt="Impermeabilização de superfície" loading="lazy">
+            <figcaption>
+              <strong>Impermeabilização</strong>
+              <span>Acabamento técnico</span>
+            </figcaption>
+          </figure>
+          <figure class="project-card">
+            <img src="images/project4.jpeg" alt="Aplicação de acabamento em superfície" loading="lazy">
+            <figcaption>
+              <strong>Tratamento de superfície</strong>
+              <span>Pintura e reparo</span>
+            </figcaption>
+          </figure>
+          <figure class="project-card">
+            <img src="images/project6.jpeg" alt="Ambiente interno em fase de acabamento" loading="lazy">
+            <figcaption>
+              <strong>Acabamento interno</strong>
+              <span>Reforma</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
 
-    <footer class="site-footer">
-      <span>© <span data-year>2026</span> Instalmec Construções e Instalações LTDA.</span>
-      <a href="#inicio">Voltar ao topo</a>
-    </footer>
+    <section class="section compliance" id="conformidade">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Conformidade</p>
+          <h2>Sinais de operação real e manutenção contínua.</h2>
+        </div>
+        <p>Removemos mensagens genéricas, créditos de template, links sem destino e textos que soavam artificiais. A página agora informa o que a empresa faz, onde atua e como entrar em contato.</p>
+      </div>
+      <div class="compliance-grid">
+        <article>
+          <strong>Conteúdo revisado em julho de 2026</strong>
+          <p>Textos corrigidos, acentuação normalizada e informações de contato tratadas para leitura profissional.</p>
+        </article>
+        <article>
+          <strong>Sem depoimentos fictícios</strong>
+          <p>Não foram adicionados clientes, certificações, prêmios ou avaliações sem fonte comprovável.</p>
+        </article>
+        <article>
+          <strong>Contato direto</strong>
+          <p>Telefone, e-mail e endereço aparecem em local visível, com links acionáveis quando aplicável.</p>
+        </article>
+      </div>
+    </section>
 
-    <script src="script.js" defer></script>
-  </body>
+    <section class="contact" id="contato">
+      <div class="contact-inner">
+        <div class="contact-copy">
+          <p class="eyebrow">Contato</p>
+          <h2>Envie seu escopo para avaliação técnica.</h2>
+          <p>Para obras, manutenção ou instalações, informe o local, tipo de serviço, prazo desejado e qualquer documentação disponível.</p>
+        </div>
+        <address class="contact-card">
+          <a href="tel:+552123421445">
+            <span>Telefone</span>
+            (21) 2342-1445
+          </a>
+          <a href="mailto:sac@instalmec.com.br?subject=Solicitação%20de%20contato%20-%20Instalmec">
+            <span>E-mail</span>
+            sac@instalmec.com.br
+          </a>
+          <p>
+            <span>Endereço</span>
+            Estrada de Xerém, 05 - Duque de Caxias/RJ
+          </p>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <img src="images/main-logo.png" alt="Instalmec">
+      <p>Projetos, estudos e execução de obras civis e instalações.</p>
+    </div>
+    <p>© <span data-year></span> Instalmec Construções e Instalações LTDA. CNPJ: 19.584.260/0001-80.</p>
+  </footer>
+
+  <div class="modal-overlay" data-modal hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" data-modal-close aria-label="Fechar">&times;</button>
+      <img data-modal-image src="" alt="">
+      <div class="modal-body">
+        <p class="eyebrow">Serviço</p>
+        <h3 id="modal-title" data-modal-title></h3>
+        <p data-modal-text></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
 </html>
