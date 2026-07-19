@@ -147,7 +147,7 @@ a {
   background:
     linear-gradient(90deg, rgba(18, 14, 10, 0.9), rgba(18, 14, 10, 0.66) 44%, rgba(18, 14, 10, 0.18)),
     linear-gradient(0deg, rgba(18, 14, 10, 0.82), rgba(18, 14, 10, 0.08) 56%),
-    url("images/banner-img.png") center / cover;
+    url("images/banner-img.jpg") center / cover;
 }
 
 .hero-content {
@@ -708,7 +708,7 @@ body.modal-open {
   color: #fff;
   background:
     linear-gradient(90deg, rgba(30, 25, 21, 0.96), rgba(30, 25, 21, 0.74)),
-    url("images/project3e.jpg") center / cover;
+    url("images/project7.jpg") center / cover;
 }
 
 .contact-inner {
@@ -796,7 +796,7 @@ body.modal-open {
   padding: 24px;
   background:
     linear-gradient(90deg, rgba(30, 25, 21, 0.95), rgba(30, 25, 21, 0.74)),
-    url("images/banner-img.png") center / cover;
+    url("images/banner-img.jpg") center / cover;
 }
 
 .not-found-panel {
